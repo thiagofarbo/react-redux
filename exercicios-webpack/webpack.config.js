@@ -6,7 +6,7 @@ module.exports = {
 		path: __dirname + '/public',
 		filename: './bundle.js'
 	},
-	deveServer:{
+	devServer:{
 		port: 8083,
 		contentBase: './public'
 	}
