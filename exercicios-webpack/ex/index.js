@@ -7,16 +7,29 @@
 // console.log(pessoa.toString())
 
 
-const produto = {
-	nome: 'Caneta Bic Preta'
+//operador spread
+/*const produto = {
+	nome: 'Caneta Bic Preta',
 	preco: 1.90,
-	desconto:0.05
+	desconto:0.05,
+	taxa:0.92
 }
 
 function clone(objeto){
-	return { ...objeto }
+	return { ...objeto } //operador spread
 }
 
-const novoProduto = 'Caneta Bic Azul'
+const novoProduto = clone(produto)
+novoProduto.nome = 'Caneta Bic Azul'
 
-console.log(produto, novoProduto)
+console.log(produto, novoProduto)*/
+import './style.css'
+import 'react'
+
+export default props =>{
+	<h1>Test</h1>
+	
+}
+	
+
+console.log('It worked!')
